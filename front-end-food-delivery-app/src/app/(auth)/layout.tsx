@@ -1,4 +1,4 @@
-import {AuthImage} from "./login/components/AuthImage";
+import {AuthImage} from "./createAccount/components/AuthImage";
 
 export default function AuthLayout({children}: {children: React.ReactNode}) {
   return (

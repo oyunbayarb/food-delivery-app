@@ -1,9 +1,9 @@
-import {CreateAccount} from "./components/CreateAccount";
+import {LoginPage} from "./components/LoginPage";
 
 export default function Login() {
   return (
     <div className="flex">
-      <CreateAccount />
+      <LoginPage />
     </div>
   );
 }
