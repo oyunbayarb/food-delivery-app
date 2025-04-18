@@ -3,11 +3,19 @@ import {OneFoodCard} from "@/mainComponents/elements";
 
 export default function Home() {
   return (
-    <div className="flex h-screen flex-col bg-[#404040] rounded-md p-10">
-      <div className="bg-[#404040] bg-contain flex flex-col">
-        <img src="./Image-bg.png" className="rounded-3xl"></img>
-        <div>
-          <FoodCategoriesList />
+    <div>
+      <div className="flex flex-col gap-5">
+        <img
+          src="./Image-bg.png"
+          className="rounded-3xl w-full h-[570px]"
+        ></img>
+        <FoodCategoriesList />
+        <div className="flex-wrap flex gap-2 size-fit">
+          <OneFoodCard />
+          <OneFoodCard />
+          <OneFoodCard />
+          <OneFoodCard />
+          <OneFoodCard />
           <OneFoodCard />
         </div>
       </div>
